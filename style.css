@@ -1,0 +1,80 @@
+
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+.textprst{
+    color: #172B4D;
+    font-weight:800;
+    font-size: 2.5em;
+}
+.textprst2{
+    color: #FF6B00;
+    font-weight:800;
+    font-size: 2.5em;
+}
+.btnn{
+    background-color: #FF6B00;
+    border: 1px solid black;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+    width: 300px;
+    height: 60px;
+    margin-top: 40px;
+}
+.espacetitre{
+    padding-top:130px;
+    position: relative;
+}
+.img img{
+    margin-left: -50px;
+}
+.chevronbas{
+    position: absolute;
+    bottom: 15px;
+    right: -25px;
+}
+
+
+/* ----------media query---------- 
+@media screen and (max-width:1440px) {
+    .textprst2,.textprst{
+        font-size: 2.6rem;
+    }
+    .conttext{
+        margin-top:150px; 
+    }
+}
+@media screen and (max-width:1024px) {
+    .textprst2,.textprst{
+        font-size: 1.5rem;
+    }
+    .conttext{
+        margin-top:100px; 
+    }
+    p{
+        font-size:15px;
+    }
+    .textprst2{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .textprst2,.textprst{
+        font-size: 1rem;
+    }
+    .conttext{
+        margin-top:80px; 
+    }
+    p{
+        font-size:12px;
+    }
+    .textprst2{
+        margin-bottom: 15px;
+    }
+}
+*/
