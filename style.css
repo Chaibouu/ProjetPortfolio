@@ -5,7 +5,7 @@ header{
     width: 100%;
 }
 #work{
-    height: 100vh;
+    margin-top: 50px;
     width: 100%;
 }
 .textprst{
@@ -41,6 +41,9 @@ header{
     position: absolute;
     bottom: 15px;
     right: -25px;
+}
+.orange{
+    color: #FF6B00;
 }
 
 
