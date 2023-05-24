@@ -1,7 +1,6 @@
 
 
 header{
-    height: 100vh;
     width: 100%;
 }
 #work{
@@ -11,6 +10,7 @@ header{
 #About{
     margin-top: 50px;
     width: 100%;
+    background-color: red;
 }
 .textprst{
     color: #172B4D;
@@ -49,7 +49,9 @@ header{
 .orange{
     color: #FF6B00;
 }
-
+#About .couleurcart{
+    background-color: #EBF0EE;
+}
 
 /* ----------media query---------- 
 @media screen and (max-width:1440px) {
