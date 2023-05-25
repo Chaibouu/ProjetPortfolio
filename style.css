@@ -1,18 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
 body{
     background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
     
 }
 main{
     max-width: 1440px;
-    
+    font-family: 'Inter', sans-serif;
 }
 header{
     width: 100%;
+    font-family: 'Inter', sans-serif;
 }
+
+
+
 #work{
     margin-top: 50px;
     width: 100%;
@@ -148,5 +157,8 @@ background-color:#28855D;
     .img img{
         margin-left: 30px;
         width: 100%;
+    }
+    #work article nav{
+        height: 220px;
     }
 }
