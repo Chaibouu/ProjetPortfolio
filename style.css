@@ -1,5 +1,15 @@
-
-
+body{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+main{
+    max-width: 1440px;
+    
+}
 header{
     width: 100%;
 }
@@ -8,9 +18,14 @@ header{
     width: 100%;
 }
 #About{
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
-    background-color: red;
+}
+#Contact{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 100px;
 }
 .textprst{
     color: #172B4D;
@@ -21,6 +36,7 @@ header{
     color: #FF6B00;
     font-weight:800;
     font-size: 2.5em;
+    margin-bottom: 50px;
 }
 .btnn{
     background-color: #FF6B00;
@@ -32,7 +48,25 @@ header{
     font-size: 2em;
     width: 300px;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-left: 190px;
+    box-shadow: 4px 3px 3px 3px rgba(0,0,0,0.2);
+}
+.btnn:hover{
+    background-color: #FE984E;
+}
+.btnn:focus{
+    background-color: #E35F00;
+}
+#work .btn-cart{
+    background-color:#36B37E;
+}
+#work .btn-cart:hover{
+    background-color:hsl(155, 45%, 84%);
+    box-shadow: 4px 6px 3px 3px hsla(153, 80%, 63%, 0.2);
+}
+#work .btn-cart:focus{
+background-color:#28855D;
 }
 .espacetitre{
     padding-top:130px;
@@ -52,6 +86,36 @@ header{
 #About .couleurcart{
     background-color: #EBF0EE;
 }
+#About span .ligneAbout{
+    background-color: #172B4D;
+    height: 20px;
+    width:50px;
+}
+#Contact .textarea{
+    border: 2px solid #FE984E;
+    outline-color: #FE984E;
+}
+#Contact .btn-form{
+    background-color: #FF6B00;
+    border: none;
+    border-radius:6px;
+    font-size: 16px;
+    color: #fff;
+}
+#Contact .btn-form:hover{
+    background-color: #FE984E;
+}
+#Contact .btn-form:focus{
+    background-color: #E35F00;
+}
+.couleuricon:hover{
+    fill: #FF6B00;
+}
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+/* ::-webkit-resizer{
+    outline-color:red; } */
 
 /* ----------media query---------- 
 @media screen and (max-width:1440px) {
@@ -75,19 +139,14 @@ header{
     .textprst2{
         margin-bottom: 20px;
     }
-}
+}*/
 @media screen and (max-width:768px) {
-    .textprst2,.textprst{
-        font-size: 1rem;
+    .espacetitre{
+        margin-left: 15px;
+        padding-top:10px;
     }
-    .conttext{
-        margin-top:80px; 
-    }
-    p{
-        font-size:12px;
-    }
-    .textprst2{
-        margin-bottom: 15px;
+    .img img{
+        margin-left: 30px;
+        width: 100%;
     }
 }
-*/
