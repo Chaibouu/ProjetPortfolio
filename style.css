@@ -83,7 +83,17 @@ background-color:#28855D;
 }
 .img img{
     margin-right: -170px;
-    width: 700px;
+    width: 600px;
+}
+.conttexttitre{
+    margin-right: -170px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.conttexttitre .texttt{
+    width: 600px;
 }
 .chevronbas{
     position: absolute;
@@ -159,8 +169,8 @@ background-color:#28855D;
         padding-top:60px;
     }
     .img img{
-        margin-left: 60px;
-        width: 100%;
+        margin-left: 30px;
+        width: 550px;
     }
     .chevronbas{
         bottom: 0;
@@ -173,6 +183,13 @@ background-color:#28855D;
         margin-top: 10px;
         margin-left: 110px;
         box-shadow: 4px 3px 3px 3px rgba(0,0,0,0.2);
+    }
+    .conttexttitre{
+        margin-right: -110px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
     }
 }
 
