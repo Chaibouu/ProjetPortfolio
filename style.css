@@ -82,7 +82,8 @@ background-color:#28855D;
     position: relative;
 }
 .img img{
-    margin-left: -50px;
+    margin-right: -170px;
+    width: 700px;
 }
 .chevronbas{
     position: absolute;
