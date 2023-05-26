@@ -123,6 +123,10 @@ background-color:#28855D;
 ::-webkit-input-placeholder {
     font-style: italic;
  }
+ #work article nav img{
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.3);
+ }
+
 /* ::-webkit-resizer{
     outline-color:red; } */
 
@@ -161,4 +165,8 @@ background-color:#28855D;
     #work article nav{
         height: 220px;
     }
+    #About .carttt{
+        font-size:13px;
+        font-weight: bold;
+     }
 }
