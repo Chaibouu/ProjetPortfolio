@@ -356,4 +356,17 @@ background-color:#28855D;
       font-weight: 600;
         
      }
+     #work section .article .ecritt{
+        font-size: 19px;
+          
+       }
+       #work section .articlee{
+        border-left:none;
+        border-right: none;
+        border-radius:5px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+     }
 }
