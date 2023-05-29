@@ -149,6 +149,9 @@ background-color:#28855D;
     border-radius: 10px;
     box-shadow: 26px 26px 25px rgba(0, 0, 0, 0.3);
  }
+ #work section article .article{
+    background-color: red
+ }
 
 /* ::-webkit-resizer{
     outline-color:red; } */
