@@ -45,12 +45,12 @@ footer{
 .textprst{
     color: #172B4D;
     font-weight:800;
-    font-size: 2.5em;
+    font-size: 1.2em;
 }
 .textprst2{
     color: #FF6B00;
     font-weight:800;
-    font-size: 2.5em;
+    font-size: 1.2em;
     margin-bottom: 50px;
 }
 .btnn{
@@ -89,6 +89,7 @@ background-color:#28855D;
 .img img{
     margin-right: -170px;
     width: 730px;
+    /* width: 550px; */
 }
 .conttexttitre{
     margin-right: -50px;
@@ -174,6 +175,15 @@ background-color:#28855D;
     margin-bottom:20px
       
    }
+   #Contact form input:focus{
+    box-shadow: 0px 0px 8px hsl(25, 100%, 50%,0.5) ;
+    border-color: #FF6B00;
+   }
+   #Contact form textarea:focus{
+    box-shadow: 0px 0px 8px hsl(25, 100%, 50%,0.5) ;
+    border-color: #FF6B00;
+   }
+
 
 
 
@@ -187,18 +197,20 @@ background-color:#28855D;
     .textprst{
         color: #172B4D;
         font-weight:800;
-        font-size: 2.2em;
+        font-size: 1em;
     }
     .textprst2{
         color: #FF6B00;
         font-weight:800;
-        font-size: 2.2em;
+        font-size: 1em;
         margin-bottom: 50px;
     }
     
     .img img{
-        margin-left: -110px;
+        margin-left: -110px; 
         width: 680px;
+        /* width: 470px;
+        margin-left: -50px; */
     }
     .chevronbas{
         position: absolute;
@@ -245,18 +257,20 @@ background-color:#28855D;
     }
     .textprst{
         font-weight:800;
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     .textprst2{
         color: #FF6B00;
         font-weight:800;
-        font-size: 2.5em;
+        font-size: 1.5em;
         margin-bottom: 30px;
     }
     .img img{
         margin-left: 85px;
-        width : 480px;
-        margin-bottom: 100px;
+      width : 480px;
+        /* margin-bottom: 100px;
+        width: 300px;
+        margin-left: 135px; */
     }
     .chevronbas{
         position: absolute;
@@ -330,13 +344,17 @@ background-color:#28855D;
         padding-bottom: 50px;
         margin-bottom: 30px;
      }
-     
+     .upper{
+        text-transform:uppercase;
+     }
 
 }
 @media screen and (max-width:425px) {
     .img img{
         margin-left: -5px;
         width : 400px;
+        /* width: 280px;
+        margin-left: 45px; */
         margin-bottom: 100px;
     }
     .espacetitre{
@@ -369,4 +387,24 @@ background-color:#28855D;
         padding-bottom: 50px;
         margin-bottom: 30px;
      }
+    .upper{
+        text-transform:uppercase;
+     }
+}
+@media screen and (max-width:375px) {
+    #work section .article .ecritt{
+        font-size: 16px;
+          
+       }
+       #work section .articlee{
+       
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+     }
+     #work section .article{
+       
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+     }
+    
 }
